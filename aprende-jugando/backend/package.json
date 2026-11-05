@@ -1,0 +1,21 @@
+{
+  "name": "aprende-jugando-api",
+  "version": "1.0.0",
+  "description": "API REST (Express + MySQL) para la app educativa Aprende Jugando",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:init": "node src/scripts/initDb.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
